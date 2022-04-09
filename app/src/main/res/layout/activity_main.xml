@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A2D9CE"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,6 +15,8 @@
         android:text="Who is the 44th President of the United States?"
         android:textSize="40sp"
         android:elevation="5dp"
+        android:textColor="#ffffff"
+        android:background="#2E4053"
         android:layout_margin="5dp" />
 
     <TextView
@@ -23,6 +26,10 @@
         android:gravity="center"
         android:text="Barack Obama"
         android:textSize="40sp"
+        android:elevation="5dp"
+        android:layout_margin="5dp"
+        android:textColor="#ffffff"
+        android:background="#5499C7"
         android:visibility="invisible"/>
 
     <ImageView
@@ -36,7 +43,7 @@
     <ImageView
         android:id="@+id/icon_next"
         android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_height="90dp"
         android:layout_marginTop="200dp"
         android:layout_alignParentRight="true"
         android:layout_marginRight="10dp"
